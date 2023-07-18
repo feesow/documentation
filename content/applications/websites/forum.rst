@@ -2,7 +2,7 @@
 Forum
 =====
 
-**Odoo Forum** enables you to connect with your community, give visitors' websites the information
+**Odoo Forum** enables you to connect with your community, give website visitors the information
 they need and provide outstanding customer satisfaction.
 
 .. important::
@@ -29,8 +29,8 @@ install it. A new :guilabel:`Forum` page appears on your website.
 Forum creation
 ==============
 
-From your website, click :guilabel:`+NEW`, then on :guilabel:`Forum` to create a new forum. A new
-page pops up.
+From your website, click :guilabel:`+New`, then :guilabel:`Forum` to create a new forum. A new page
+pops up.
 
 .. image:: forum/new-forum.png
    :align: center
@@ -42,7 +42,7 @@ Fill in the following information:
 - :guilabel:`Forum Mode`: select :guilabel:`Questions` (only one answer allowed) or
   :guilabel:`Discussions` (multiple answers allowed);
 - :guilabel:`Privacy`: select :guilabel:`Public` (everyone can access it), :guilabel:`Signed In`
-  (your forum is visible for signed in users only), or :guilabel:`Some users` (your forum and its
+  (your forum is visible for signed-in users only), or :guilabel:`Some users` (your forum and its
   content is hidden for non-members of selected group).
 
 Click :guilabel:`SAVE`.
@@ -66,7 +66,7 @@ To create a new post, click :guilabel:`New Post` and fill in the following infor
 - :guilabel:`Tags`: add :ref:`tags <forum/tags>` to help filter questions and answers related to the
   same topic.
 
-Click :guilabel:`Post Your Question`. A new window pops up inviting you to share your question on
+Click :guilabel:`Post Your Question`. A new window pops up, inviting you to share your question on
 social networks.
 
 Managing posts
@@ -84,7 +84,7 @@ there, you can access the following using the forum's navigation bar:
   contributors can be rewarded with :ref:`badges <forum/badges>` according to their participation.
   Badges are visible on both their profile page and their posts;
 - :guilabel:`About`: provide guidelines to answer any questions users might have. By default,
-  guidelines are available and can be edited according to your need by clicking the :guilabel:`Edit`
+  guidelines are available and can be edited according to your needs by clicking the :guilabel:`Edit`
   button.
 
 .. _forum/interacting:
@@ -93,7 +93,7 @@ Interacting with posts
 ======================
 
 From a post, users with enough :ref:`Karma gains <forum/karma-gains>` can :guilabel:`answer`,
-:guilabel:`comment` and :guilabel:`share` a it on social networks.
+:guilabel:`comment` and :guilabel:`share` it on social networks.
 
 They can also :guilabel:`Edit`, :guilabel:`Close`, :guilabel:`Delete`, or :guilabel:`Flag` a post by
 clicking ⋮, and :guilabel:`Follow` or :guilabel:`Unfollow` it by clicking the bell.
@@ -123,7 +123,7 @@ Forums
 
 You can manage your forums by going to :menuselection:`Website --> Configuration --> Forum: Forums`.
 
-Click :guilabel:`New` to :ref:`create a forum <forum/creation>` or click an existing one to update
+Click :guilabel:`New` to :ref:`create a forum <forum/creation>`, or click an existing one to update
 it.
 
 .. tip::
@@ -144,7 +144,7 @@ Three tabs are available: :ref:`Options <forum/options>`, :ref:`Karma Gains <for
 Options
 ~~~~~~~
 
-From this tab you can set the order and visibility of your forum.
+From this tab, you can set the order and visibility of your forum.
 
 - :guilabel:`Default Sort`: Select :guilabel:`Newest`, :guilabel:`Last Updated`,
   :guilabel:`Most Voted`, :guilabel:`Relevance`, or :guilabel:`Answered`.
@@ -152,7 +152,7 @@ From this tab you can set the order and visibility of your forum.
 - :guilabel:`Privacy`:
 
    - :guilabel:`Public`: your forum is public;
-   - :guilabel:`Signed in`: your forum is visible for signed in users;
+   - :guilabel:`Signed in`: your forum is visible for signed-in users;
    - :guilabel:`Some users`: your forum and its content are hidden from non-members of the
      authorized group.
 
@@ -163,7 +163,7 @@ You also have the possibility to add a short :guilabel:`Description visible on y
 Karma gains
 ~~~~~~~~~~~
 
-Karma points are given to the forum's active participants to keep them involved and provide them
+Karma points are awarded to the forum's active participants to keep them involved and provide them
 access to functionalities like voting, commenting, and editing when they reach a certain Karma
 level.
 
@@ -183,7 +183,7 @@ Karma-related rights
 Karma rights are used to determine what a user can and cannot do, like access rights.
 
 Go to the :guilabel:`Karma Related Rights` tab to set up a moderation system with Karma points to
-give your most active members access to more functionalities and to reduce spamming messages. Click
+give your most active members access to more functionalities, and to reduce spamming messages. Click
 a number to edit it.
 
 .. _forum/ranks:
@@ -225,4 +225,4 @@ You can retrieve your posts' close reasons by going to :menuselection:`Website -
 
 .. note::
    :ref:`Close <forum/interacting>` a post directly from the question or discussion, by clicking the
-   ⋮, and :guilabel:`Close`.
+   ⋮, then :guilabel:`Close`.
