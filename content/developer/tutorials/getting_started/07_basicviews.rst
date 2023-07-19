@@ -223,7 +223,13 @@ services *OR* have a unit price which is *NOT* between 1000 and 2000'::
     ``&lt;`` for ``<`` and ``&amp;`` for ``&``. Other entity references
     (``&gt;``, ``&apos;`` & ``&quot;``) are optional.
 
-.. exercise:: Add filter and Group By.
+    Example:
+
+        .. code-block:: xml
+
+            <filter name="negative" domain="[('test_val', 'lt;', 0)]"/>
+
+.. exercise: Add filter and Group By.
 
     The following should be added to the previously created search view:
 
